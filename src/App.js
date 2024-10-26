@@ -4,7 +4,7 @@ import NavBar from './Components/NavBar/NavBar';
 import "./App.css";
 import Banner from './Components/Banner/Banner';
 import RowPost from './Components/RowPost/RowPost';
-import {originals, action} from './urls'
+import {originals, action,thriller,crime,animation} from './urls'
 
 function App() {
   return (
@@ -13,6 +13,9 @@ function App() {
       <Banner/>
       <RowPost url={originals} title='Netflix Original'/>
       <RowPost url={action} title='Action' isSmall={true}/>
+      <RowPost url={thriller} title='Thriller' isSmall={true}/>
+      <RowPost url={crime} title='Crime' isSmall={true}/>
+      <RowPost url={animation} title='Animation' isSmall={true}/>
     </div>
   );
 }
