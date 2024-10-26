@@ -1,0 +1,11 @@
+
+.footer{
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.icons .svg-inline--fa {
+    margin: 0 10px; 
+}
